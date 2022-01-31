@@ -34,6 +34,10 @@ sidebar:
             title: global.home
             url: /
             icon: fa fa-home
+        about:
+            title: global.about
+            url: "#about"
+            icon: fa fa-question
         categories:
             title: global.categories
             url: /all-categories
@@ -52,38 +56,22 @@ sidebar:
             icon: fa fa-search
             # `open-algolia-search` classes are used to open algolia search modal
             class: open-algolia-search
-        about:
-            title: global.about
-            url: "#about"
-            icon: fa fa-question
     author_links:
-        github:
-            title: global.github
-            url: https://github.com/
-            icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
         linked_in:
             title: global.linkedin
-            url: https://www.linkedin.com/profile/
+            url: https://www.linkedin.com/in/benjamin-wallis-6353a249/
             icon: fab fa-linkedin
+        github:
+            title: global.github
+            url: https://github.com/nebsta
+            icon: fab fa-github
+        twitter:
+            title: global.twitter
+            url: https://twitter.com/TheCaffCoder
+            icon: fab fa-twitter
         mail:
             title: global.mail
-            url: mailto
+            url: mailto:ben.nat.wallis@gmail.com
             icon: fa fa-envelope
     rss:
         rss:
@@ -150,7 +138,7 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
@@ -269,45 +257,6 @@ fb_app_id:
 #     share_on_foo_bar: "Share on Foo Bar"
 # ```
 sharing_options:
-    facebook:
-        icon: "fab fa-facebook"
-        url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
     twitter:
         icon: "fab fa-twitter"
         url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
-    google_plus:
-        icon: "fab fa-google-plus"
-        url: "https://plus.google.com/share?url={{post.permalink}}"
-# Business Social Networks
-#    linkedin:
-#        icon: "fab fa-linkedin"
-#        url: "https://www.linkedin.com/shareArticle?mini=true&url={{post.permalink}}"
-#    xing:
-#        icon: "fab fa-xing"
-#        url: "https://www.xing.com/spi/shares/new?url={{post.permalink}}"
-# Asian social networks
-#    weibo:
-#        title: "Weibo"
-#        icon: "fab fa-weibo"
-#        url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
-#    qq:
-#        title: "QQ"
-#        icon: "fab fa-qq"
-#        url: "http://connect.qq.com/widget/shareqq/index.html?url={{post.permalink}}&title={{post.title}}"
-#    qzone:
-#        title: "Qzone"
-#        icon: "fa fa-star"
-#        url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
-#    renren:
-#        title: "Renren"
-#        icon: "fab fa-renren"
-#        url: "http://widget.renren.com/dialog/share?resourceUrl={{post.permalink}}"
-# Russian social networks
-#    vk:
-#        title: "VK"
-#        icon: "fab fa-vk"
-#        url: "https://vk.com/share.php?url={{post.permalink}}"
-#    odnoklassniki:
-#        title: "Odnoklassniki"
-#        icon: "fab fa-odnoklassniki"
-#        url: "https://connect.ok.ru/offer?url={{post.permalink}}"
