@@ -1,5 +1,5 @@
 # date format displayed everywhere in the blog
-date_format: "MMM DD, YYYY"
+date_format: "DD/MM/YYYY"
 
 global:
     home: "Home"
@@ -81,6 +81,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "Software Engineer with experience in Mobile/Web/Backend/Games"
     # Your job
-    job: ""
+    job: "Software Engineer"
